@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check your understanding</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: rgb(191, 219, 244);
+        }
+        .card-body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="bg bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card text-center">
+              <div class="card-body">
+                <h2>Scikit Learn Module Quiz</h2>
+                <div id="quiz">
+                    <div id="question"></div>
+                    <div id="options" class="mt-4"></div>
+                    <button id="submitBtn" class="btn btn-primary mt-4">Submit Answer</button>
+                    <div id="result" class="mt-4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script>
+       const quiz = [{
+         question: "What does SVM stands for?",
+         options:["Superior Vector Machine" , "Serial Vector Machine" ,"Support Vector Machine"],
+         answer: "Support Vector Machine"
+
+       },
+    {
+        question: "Linear regression with many target variables ",
+        options: [ "Multiple Linear Regression" , "Logistic Regression" ,"Lasso Regression"],
+        answer: "Multiple Linear Regression"
+    }]
+    </script>
+</body>
+</html>

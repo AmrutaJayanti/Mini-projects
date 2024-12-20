@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  #app {
+    text-align: center;
+  }
+  
+  #flashcard-form {
+    margin-bottom: 20px;
+  }
+  
+  #flashcard-form input {
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+  }
+  
+  #flashcard-form button {
+    padding: 5px 10px;
+  }
+  
+  #flashcards {
+    margin-top: 20px;
+  }
+  
+  .flashcard {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
