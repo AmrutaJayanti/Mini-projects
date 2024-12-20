@@ -1,0 +1,2 @@
+🚀 Mini Projects Showcase 🌟
+A collection of creative mini projects built to sharpen my skills in HTML, CSS, and JavaScript! Each project is a fun experiment where I explore new techniques, enhance my coding abilities, and push the boundaries of web development. Whether it's building interactive interfaces or crafting unique designs, this repo is where I practice, learn, and showcase my journey in frontend development. Stay tuned for more!
